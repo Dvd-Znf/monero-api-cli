@@ -1,0 +1,2 @@
+prompt-toolkit==3.0.39
+requests==2.31.0
