@@ -35,7 +35,7 @@ Print current version
 #### exit (REPL only)
 Exit the cli REPL mode       
 You can also use Ctrl+C to exit        
-EOF (Ctrl+D) will trow an error, check TODO       
+~~ EOF (Ctrl+D) will trow an error, check TODO ~~       
 ### Available options:
 #### -h, --help
 Show help message and exits  
@@ -95,7 +95,7 @@ Also that sound super laaaameeeeeee
 ## TODO:    
 - Make /etc/ config file (TOML like maybe idk)
     - Add config option for changing default daemon address
-- Add error handling for EOF (End Of File)   
+- ~~ Add error handling for EOF (End Of File) ~~   
 - Choose a build-backend and make pyproject.toml   
 ### TODO for v0.1.0:
 - Package Python Project (And add it to PYPI)    

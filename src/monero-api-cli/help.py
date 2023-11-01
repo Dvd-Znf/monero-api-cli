@@ -88,5 +88,8 @@ def helpcli(additional_args=None):
             elif len(user_input) > 0 and not str.isspace(user_input):
                 print(user_input + " is not known")
         except KeyboardInterrupt:
-            print("\nKeyboardInterrupt. Exiting the CLI.")
+            print("\nKeyboardInterrupt. Exiting the help CLI.")
+            break
+        except EOFError:
+            print("\nEOF (Ctrl+D) detected. Exiting the help CLI.")
             break

@@ -44,3 +44,6 @@ def cli(address, port):
         except KeyboardInterrupt:
             print("\nKeyboardInterrupt. Exiting the CLI.")
             break
+        except EOFError:
+            print("\nEOF (Ctrl+D) detected. Exiting the CLI.")
+            break
