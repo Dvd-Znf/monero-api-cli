@@ -59,7 +59,7 @@ Install all python module dependencies with: `pip install -r requirements.txt`
 ## How to install
 In the future I'll add the project to PyPi | Check TODO        
 Right now you can either use the source code with the Python interpretor directly        
-Or you could use the provided binnary available at `dist/monero-api-cli/monero-api-cli`         
+Or you could use the provided binnary available at `dist/monero-api-cli`         
 ### Step 0:
 Clone this repo :P   
 ``` bash
@@ -70,7 +70,7 @@ Use the provided binnary (Linux only!)
 Dependencies are already bundled in, you dont need to install anything!      
 ``` bash
 $ cd monero-api-cli
-$ ./dist/monero-api-cli/monero-api-cli
+$ ./dist/monero-api-cli
 ```
 If you get permisions error add execute permisions with: `chmod +x <path to binnary>`   
 ### Step 1 (From source, recommended for development):   
