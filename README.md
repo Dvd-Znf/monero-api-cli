@@ -96,8 +96,8 @@ Also that sound super laaaameeeeeee
 - Make /etc/ config file (TOML like maybe idk)
     - Add config option for changing default daemon address
 - ~~Add error handling for EOF (End Of File)~~   
-- Choose a build-backend and make pyproject.toml   
+- ~~Choose a build-backend and make pyproject.toml~~   
 ### TODO for v0.1.0:
-- Package Python Project (And add it to PYPI)    
+- Package Python Project (Create distribution archive && add it to PyPi)    
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
