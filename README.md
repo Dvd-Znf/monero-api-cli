@@ -35,7 +35,6 @@ Print current version
 #### exit (REPL only)
 Exit the cli REPL mode       
 You can also use Ctrl+C to exit        
-~~EOF (Ctrl+D) will trow an error, check TODO~~       
 ### Available options:
 #### -h, --help
 Show help message and exits  
@@ -47,7 +46,7 @@ Which daemon address to use, format: [IPv4 address]:[Port number]
 ![example](./imgs/Screenshot_Usage.png)
 ## Dependencies:
 Because the app is bundled using pyinstaller dependencies are _not_ required on the binnary versions     
-The dependencies are only required when working direclty with the source (or when using pip, after I add to index)      
+The dependencies are only required when working direclty with the source         
 Install all python module dependencies with: `pip install -r requirements.txt`        
      
 | Name | PyPi Name | What is it used for? |
@@ -93,7 +92,9 @@ After first realse you may integrate monero-api-cli into whatever you want but t
 Some setups require the daemon to be non-interactive       
 Also that sound super laaaameeeeeee       
 ## TODO:    
-- Make /etc/ config file (TOML like maybe idk)
+- Consider cross-platform support between POSIX and Windows       
+- Add --config-file option       
+    - Make /etc/ config file     
     - Add config option for changing default daemon address
 - ~~Add error handling for EOF (End Of File)~~   
 - ~~Choose a build-backend and make pyproject.toml~~   
