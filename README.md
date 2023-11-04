@@ -6,7 +6,7 @@ Under the hood it mostly uses the [Prompt-Toolkit module](https://python-prompt-
 ## Usage:
 ```
 $ monero-api-cli --help
-usage: [-h] [-v] [--daemon-address DAEMON_ADDRESS] {help,get_info} ...
+usage: [-h] [-v] [--daemon-address DAEMON_ADDRESS] [--config-file CONFIG_FILE] {help,get_info} ...
 
 Cli for interacting with the MoneroDaemon-RPC API
 
@@ -15,6 +15,8 @@ options:
   -v, --version         show program's version number and exit
   --daemon-address DAEMON_ADDRESS
                         Which daemon address to use, format: [IPv4 address]:[Port number]
+  --config-file CONFIG_FILE
+                        Path to config file
 
 RPC methods:
   {help,get_info}
@@ -42,8 +44,22 @@ Show help message and exits
 Show current version and exit  
 #### --daemon-address
 Which daemon address to use, format: [IPv4 address]:[Port number]  
+#### --config-file
+Path for a config file   
+Check Config File section for more details         
 ### Example usage:
 ![example](./imgs/Screenshot_Usage.png)
+## Config File:
+Default location for config file is /etc/monero-api-cli/monero-api-cli.config for MacOS/Linux     
+And C:\ProgramData\MoneroApiCli\monero-api-cli.confg for Windows                
+Example config file located at root of this repo, named `monero-api-config.config`
+``` toml
+# Config File INI/TOML like syntax
+# Lines starting with # are comments and have their respective default options
+[settings]
+# Which daemon address to use, format: [IPv4 address]:[Port number]
+# daemon-address = 127.0.0.1:18081
+```
 ## Dependencies:
 Because the app is bundled using pyinstaller dependencies are _not_ required on the binnary versions     
 The dependencies are only required when working direclty with the source         
@@ -93,9 +109,9 @@ Some setups require the daemon to be non-interactive
 Also that sound super laaaameeeeeee       
 ## TODO:    
 - Consider cross-platform support between POSIX and Windows       
-- Add --config-file option       
-    - Make /etc/ config file     
-    - Add config option for changing default daemon address
+- ~~Add --config-file option~~       
+    - ~~Make /etc/ config file~~     
+    - ~~Add config option for changing default daemon address~~
 - ~~Add error handling for EOF (End Of File)~~   
 - ~~Choose a build-backend and make pyproject.toml~~   
 ### TODO for v0.1.0:
