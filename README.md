@@ -74,7 +74,7 @@ Install all python module dependencies with: `pip install -r requirements.txt`
 ## How to install
 In the future I'll add the project to PyPi | Check TODO        
 Right now you can either use the source code with the Python interpretor directly        
-Or you could use the provided binnary available at `dist/monero-api-cli`         
+Or you could use the provided binnary available at `dist/monero-api-cli` for MacOS/Linux and `dist/monero-api-cli.exe` for Windows            
 ### Step 0:
 Clone this repo :P   
 ``` bash
@@ -85,7 +85,10 @@ Use the provided binnary (Linux only!)
 Dependencies are already bundled in, you dont need to install anything!      
 ``` bash
 $ cd monero-api-cli
-$ ./dist/monero-api-cli
+$ ./dist/monero-api-cli  # MacOS/Linux     
+```
+``` PowerShell
+PS> ./dist/monero-api-cli.exe # Windows     
 ```
 If you get permisions error add execute permisions with: `chmod +x <path to binnary>`   
 ### Step 1 (From source, recommended for development):   
@@ -108,7 +111,7 @@ After first realse you may integrate monero-api-cli into whatever you want but t
 Some setups require the daemon to be non-interactive       
 Also that sound super laaaameeeeeee       
 ## TODO:    
-- Consider cross-platform support between POSIX and Windows       
+- ~~Consider cross-platform support between POSIX and Windows~~           
 - ~~Add --config-file option~~       
     - ~~Make /etc/ config file~~     
     - ~~Add config option for changing default daemon address~~
