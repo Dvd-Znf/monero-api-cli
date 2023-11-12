@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/monero-api-cli/__init__.py
+src/monero-api-cli/__main__.py
+src/monero-api-cli/cli.py
+src/monero-api-cli/functions.py
+src/monero-api-cli/help.py
+src/monero-api-cli/rpc_methods.py
+src/monero-api-cli/version.py
+src/monero_api_cli.egg-info/PKG-INFO
+src/monero_api_cli.egg-info/SOURCES.txt
+src/monero_api_cli.egg-info/dependency_links.txt
+src/monero_api_cli.egg-info/requires.txt
+src/monero_api_cli.egg-info/top_level.txt

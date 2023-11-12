@@ -1,3 +1,45 @@
+Metadata-Version: 2.1
+Name: monero-api-cli
+Version: 0.1.0rc1
+Summary: Cli for interacting with the MoneroDaemon-RPC API
+Author-email: Dvd-Znf <email@dvdznf.xyz>
+License: MIT License
+        
+        Copyright (c) 2023 Dvd-Znf
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Dvd-Znf/monero-api-cli
+Project-URL: Bug Tracker, https://github.com/Dvd-Znf/monero-api-cli/issues
+Keywords: monero,cli-app
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prompt-toolkit
+Requires-Dist: requests
+
 # Monero-api-cli       
 ## Cli for interacting with the MoneroDaemon-RPC API       
 ![Banner](./imgs/Banner.png)    
@@ -116,9 +158,9 @@ Also that sound super laaaameeeeeee
     - ~~Make /etc/ config file~~     
     - ~~Add config option for changing default daemon address~~
 - ~~Add error handling for EOF (End Of File)~~   
-- ~~Choose a build-backend and make pyproject.toml~~   
+- ~~Choose a build-backend and make pyproject.toml~~
 - Add ability to switch daemon address from REPL interactive mode         
 ### TODO for v0.1.0:
-- ~~Package Python Project (Create distribution archive && add it to PyPi)~~    
+- Package Python Project (Create distribution archive && add it to PyPi)    
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
