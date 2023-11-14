@@ -72,7 +72,8 @@ Install all python module dependencies with: `pip install -r requirements.txt`
 | Prompt Toolkit module | `prompt_toolkit` | Used in the implementation of REPL cli mode |
      
 ## How to install
-In the future I'll add the project to PyPi | Check TODO        
+### From PyPi via pip (Curently broken, check TODO)   
+`pip install monero-api-cli`     
 Right now you can either use the source code with the Python interpretor directly        
 Or you could use the provided binnary available at `dist/monero-api-cli` for MacOS/Linux and `dist/monero-api-cli.exe` for Windows            
 ### Step 0:
@@ -81,7 +82,7 @@ Clone this repo :P
 $ git clone https://github.com/Dvd-Znf/monero-api-cli
 ```
 ### Step 1 (With binnary):
-Use the provided binnary (Linux only!)       
+Use the provided binnary         
 Dependencies are already bundled in, you dont need to install anything!      
 ``` bash
 $ cd monero-api-cli
@@ -120,6 +121,7 @@ Also that sound super laaaameeeeeee
 - Add ability to switch daemon address from REPL interactive mode         
 ### TODO for v0.1.0:
 - ~~Fix issue #1~~    
+- Fix issue #2 (Coming soon... :sob:)
 - ~~Package Python Project (Create distribution archive && add it to PyPi)~~    
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
