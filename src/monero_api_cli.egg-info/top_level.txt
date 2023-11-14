@@ -1,1 +1,1 @@
-monero-api-cli
+monero_api_cli

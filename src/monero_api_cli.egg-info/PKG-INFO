@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: monero-api-cli
-Version: 0.1.0rc1
+Version: 0.1.0rc2
 Summary: Cli for interacting with the MoneroDaemon-RPC API
 Author-email: Dvd-Znf <email@dvdznf.xyz>
 License: MIT License
@@ -158,9 +158,10 @@ Also that sound super laaaameeeeeee
     - ~~Make /etc/ config file~~     
     - ~~Add config option for changing default daemon address~~
 - ~~Add error handling for EOF (End Of File)~~   
-- ~~Choose a build-backend and make pyproject.toml~~
+- ~~Choose a build-backend and make pyproject.toml~~   
 - Add ability to switch daemon address from REPL interactive mode         
 ### TODO for v0.1.0:
-- Package Python Project (Create distribution archive && add it to PyPi)    
+- Fix issue #1    
+- ~~Package Python Project (Create distribution archive && add it to PyPi)~~    
 ### TODO for v1.0.0:       
 - Implement more of the API :P     

@@ -1,0 +1,2 @@
+[console_scripts]
+monero-api-cli = monero_api_cli:__main__
