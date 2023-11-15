@@ -1,6 +1,6 @@
 import requests
 import json
-from help import helpcli
+from .help import helpcli
 
 def help(address, port, additional_args=None):
     helpcli(additional_args)

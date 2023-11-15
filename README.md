@@ -121,7 +121,7 @@ Also that sound super laaaameeeeeee
 - Add ability to switch daemon address from REPL interactive mode         
 ### TODO for v0.1.0:
 - ~~Fix issue #1~~    
-- Fix issue #2 (Coming soon... :sob:)
+- ~~Fix issue #2 (Coming soon... :sob:)~~   
 - ~~Package Python Project (Create distribution archive && add it to PyPi)~~    
 ### TODO for v1.0.0:       
 - Implement more of the API :P     

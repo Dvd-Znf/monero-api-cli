@@ -1,6 +1,6 @@
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit import PromptSession
-from version import __version__
+from .version import __version__
 from prompt_toolkit.styles import Style
 
 help_methods = {

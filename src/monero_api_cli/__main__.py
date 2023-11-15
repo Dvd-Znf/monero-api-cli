@@ -1,20 +1,20 @@
-import version
+# import version
 import sys
 # import json
 # import requests
 import argparse
-import rpc_methods
+# import rpc_methods
 # import functions
-import cli
+# import cli
 import re
 import os
 import configparser
 
 from sys import exit
 # from os.path import expanduser
-from version import __version__
-from rpc_methods import rpc_methods
-from cli import cli
+from .version import __version__
+from .rpc_methods import rpc_methods
+from .cli import cli
 
 # home = expanduser("~")
 def load_config(config_file_path):

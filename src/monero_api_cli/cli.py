@@ -1,7 +1,7 @@
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit import PromptSession
-from version import __version__
-from rpc_methods import rpc_methods
+from .version import __version__
+from .rpc_methods import rpc_methods
 from prompt_toolkit.styles import Style
 
 style = Style.from_dict({

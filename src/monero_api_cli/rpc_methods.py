@@ -1,4 +1,4 @@
-import functions
+from . import functions
 
 
 rpc_methods = { "help": functions.help,
