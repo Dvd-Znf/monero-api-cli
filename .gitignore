@@ -2,4 +2,3 @@ build/
 dist/monero-api-cli/_internal
 !dist/monero-api-cli/monero-api-cli
 src/monero_api_cli/__pycache__/
-*.spec
