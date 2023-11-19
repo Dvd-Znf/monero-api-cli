@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['src/monero_api_cli/__main__.py'],
-    pathex=['src/monero_api_cli/'],
+    ['launcher.py'],
+    pathex=["."],
     binaries=[],
-    datas=[],
+    datas=[("src/monero_api_cli","monero_api_cli")],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

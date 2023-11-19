@@ -58,7 +58,7 @@ Example config file located at root of this repo, named `monero-api-config.confi
 # Lines starting with # are comments and have their respective default options
 [settings]
 # Which daemon address to use, format: [IPv4 address]:[Port number]
-# daemon-address = 127.0.0.1:18081
+daemon-address = 127.0.0.1:18081
 ```
 ## Dependencies:
 Because the app is bundled using pyinstaller dependencies are _not_ required on the binnary versions     
@@ -72,9 +72,9 @@ Install all python module dependencies with: `pip install -r requirements.txt`
 | Prompt Toolkit module | `prompt_toolkit` | Used in the implementation of REPL cli mode |
      
 ## How to install
-### From PyPi via pip (Curently broken, check TODO)   
+### From PyPi via pip   
 `pip install monero-api-cli`     
-Right now you can either use the source code with the Python interpretor directly        
+You can either use the source code with the Python interpretor directly        
 Or you could use the provided binnary available at `dist/monero-api-cli` for MacOS/Linux and `dist/monero-api-cli.exe` for Windows            
 ### Step 0:
 Clone this repo :P   
@@ -94,10 +94,14 @@ PS> ./dist/monero-api-cli.exe # Windows
 If you get permisions error add execute permisions with: `chmod +x <path to binnary>`   
 ### Step 1 (From source, recommended for development):   
 Make sure you have all dependencies installed       
-Then just use the Python interpretor on the source code      
+Then just use the Python interpretor on the `launcher.py` script      
 ``` bash
-$ cd monero-api-cli  
-$ python src/monero-api-cli  
+$ cd monero-api-cli   
+$ python launcher.py     
+```
+Or you can run the source directly as a module      
+``` bash
+$ python -m src.monero_api_cli
 ```
 ## Why make this from zero when python-monero module already exists?      
 This is not meant as a replacement for python-monero module!        
