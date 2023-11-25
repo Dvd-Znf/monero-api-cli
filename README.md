@@ -116,12 +116,6 @@ After first realse you may integrate monero-api-cli into whatever you want but t
 Some setups require the daemon to be non-interactive       
 Also that sound super laaaameeeeeee       
 ## TODO:    
-- ~~Consider cross-platform support between POSIX and Windows~~           
-- ~~Add --config-file option~~       
-    - ~~Make /etc/ config file~~     
-    - ~~Add config option for changing default daemon address~~
-- ~~Add error handling for EOF (End Of File)~~   
-- ~~Choose a build-backend and make pyproject.toml~~   
 - Add ability to switch daemon address from REPL interactive mode         
 ### TODO for v0.1.0:
 - ~~Fix issue #1~~    
