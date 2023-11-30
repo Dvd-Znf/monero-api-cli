@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: monero-api-cli
-Version: 0.1.0
+Version: 0.1.1
 Summary: Cli for interacting with the MoneroDaemon-RPC API
 Author-email: Dvd-Znf <email@dvdznf.xyz>
 License: MIT License
@@ -28,7 +28,7 @@ License: MIT License
 Project-URL: Homepage, https://github.com/Dvd-Znf/monero-api-cli
 Project-URL: Bug Tracker, https://github.com/Dvd-Znf/monero-api-cli/issues
 Keywords: monero,cli-app
-Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Development Status :: 5 - Production/Stable
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: MacOS :: MacOS X
@@ -159,9 +159,5 @@ Some setups require the daemon to be non-interactive
 Also that sound super laaaameeeeeee       
 ## TODO:    
 - Add ability to switch daemon address from REPL interactive mode         
-### TODO for v0.1.0:
-- ~~Fix issue #1~~    
-- ~~Fix issue #2 (Coming soon... :sob:)~~   
-- ~~Package Python Project (Create distribution archive && add it to PyPi)~~    
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
