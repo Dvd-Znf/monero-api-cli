@@ -76,9 +76,11 @@ address, port = daemon_address.split(":")
 
 if not re.match(ipv4_pattern, address):
     print("Invalid IPv4 address. Please use a valid IPv4 address.")
+    exit(1)
 
 if not re.match(port_pattern, port):
     print("Invalid port number. Please use a valid port number (1-65535).")
+    exit(1)
 
 
 if args.subcommand is None :
