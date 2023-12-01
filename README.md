@@ -1,8 +1,8 @@
 # Monero-api-cli       
 ## Cli for interacting with the MoneroDaemon-RPC API       
 ![Banner](./imgs/Banner.png)    
-`monero-api-cli` is a Python cli application meant for remotly interacting with a Monero Daemon via its [RPC API](https://www.getmonero.org/resources/developer-guides/daemon-rpc.html)     
-Under the hood it mostly uses the [Prompt-Toolkit module](https://python-prompt-toolkit.readthedocs.io/en/master/) for its [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) interface and [Requests](https://requests.readthedocs.io/en/latest/) for the acctual interaction with the API
+`monero-api-cli` is a Python cli application meant for remotely interacting with a Monero Daemon via its [RPC API](https://www.getmonero.org/resources/developer-guides/daemon-rpc.html)     
+Under the hood it mostly uses the [Prompt-Toolkit module](https://python-prompt-toolkit.readthedocs.io/en/master/) for its [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) interface and [Requests](https://requests.readthedocs.io/en/latest/) for the actual interaction with the API
 ## Usage:
 ```
 $ monero-api-cli --help
@@ -29,7 +29,7 @@ If you call the app with no additional arguments it will enter into a REPL cli m
 ![helpimage](./imgs/Screenshot_Help.png)
    
 If no additional arguments are passed it will go into REPL mode    
-Otherwise it will just take the argument and display the help message asociated with it    
+Otherwise it will just take the argument and display the help message associated with it    
 #### get_info    
 Calls the get_info RPC method         
 #### version (REPL only)
@@ -61,7 +61,7 @@ Example config file located at root of this repo, named `monero-api-config.confi
 daemon-address = 127.0.0.1:18081
 ```
 ## Dependencies:
-Because the app is bundled using pyinstaller dependencies are _not_ required on the binnary versions     
+Because the app is bundled using pyinstaller dependencies are _not_ required on the binary versions     
 The dependencies are only required when working direclty with the source         
 Install all python module dependencies with: `pip install -r requirements.txt`        
      
@@ -75,14 +75,14 @@ Install all python module dependencies with: `pip install -r requirements.txt`
 ### From PyPi via pip   
 `pip install monero-api-cli`     
 You can either use the source code with the Python interpretor directly        
-Or you could use the provided binnary available at `dist/monero-api-cli` for MacOS/Linux and `dist/monero-api-cli.exe` for Windows            
+Or you could use the provided binary available at `dist/monero-api-cli` for MacOS/Linux and `dist/monero-api-cli.exe` for Windows            
 ### Step 0:
 Clone this repo :P   
 ``` bash
 $ git clone https://github.com/Dvd-Znf/monero-api-cli
 ```
-### Step 1 (With binnary):
-Use the provided binnary         
+### Step 1 (With binary):
+Use the provided binary         
 Dependencies are already bundled in, you dont need to install anything!      
 ``` bash
 $ cd monero-api-cli
@@ -91,7 +91,7 @@ $ ./dist/monero-api-cli  # MacOS/Linux
 ``` PowerShell
 PS> ./dist/monero-api-cli.exe # Windows     
 ```
-If you get permisions error add execute permisions with: `chmod +x <path to binnary>`   
+If you get permisions error add execute permisions with: `chmod +x <path to binary>`   
 ### Step 1 (From source, recommended for development):   
 Make sure you have all dependencies installed       
 Then just use the Python interpretor on the `launcher.py` script      
