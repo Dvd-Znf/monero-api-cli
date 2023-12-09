@@ -66,8 +66,7 @@ if config:
         if key == "daemon-address":
             daemon_address = value
 
-ip_address_validation(daemon_address)
-address, port = daemon_address.split(":")
+address, port = ip_address_validation(daemon_address)
 
 
 if args.subcommand is None :

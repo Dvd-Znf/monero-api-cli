@@ -16,6 +16,7 @@ def ip_address_validation(daemon_address):
     if not re.match(port_pattern, port):
         print("Invalid port number. Please use a valid port number (1-65535).")
         exit(1)
+    return address, port
 
 def help(address, port, additional_args=None):
     helpcli(additional_args)
