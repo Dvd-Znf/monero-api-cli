@@ -53,7 +53,7 @@ Check Config File section for more details
 Default location for config file is /etc/monero-api-cli/monero-api-cli.config for MacOS/Linux     
 And C:\ProgramData\MoneroApiCli\monero-api-cli.confg for Windows                
 Example config file located at root of this repo, named `monero-api-config.config`
-``` toml
+``` ini 
 # Config File INI/TOML like syntax
 # Lines starting with # are comments and have their respective default options
 [settings]
