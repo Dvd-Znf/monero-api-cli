@@ -117,6 +117,6 @@ Some setups require the daemon to be non-interactive
 Also that sound super laaaameeeeeee       
 ## TODO:    
 - Add ability to switch daemon address from REPL interactive mode         
-  - Create a separate function for IP address validation     
+  - ~~Create a separate function for IP address validation~~     
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
