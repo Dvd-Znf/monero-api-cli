@@ -107,7 +107,7 @@ $ python -m src.monero_api_cli
 This is not meant as a replacement for python-monero module!        
 Instead, this is an independent cli application for interacting with monerod via its RPC API        
 i.e. cli-app & no wallet RPC        
-This is mostly ment for monero node operators who would like a nice, intuitive and easy way to interact with their daemon    
+This is mostly meant for monero node operators who would like a nice, intuitive and easy way to interact with their daemon    
 This is the reason I made this.      
 python-monero last update to its source code was more than a year ago, even tho it could use some improvements, at least to its docs.     
 This is activly developed.      
