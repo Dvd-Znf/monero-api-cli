@@ -52,6 +52,7 @@ help_methods = {
     "exit": "exit the cli | Press Ctrl + C to exit help",
     #
     "version": "Print curent version\n",
+    "daemon-address": "Change curent daemon address.\nInputs: Valid ipv4 address, format: [IPv4 address]:[Port number]\n",
 }
 
 style = Style.from_dict({
@@ -68,7 +69,7 @@ message = [
     ('class:afterprompt', ': '),
 ]
 
-cli_completer = WordCompleter(['get_info', 'get_info_output', 'exit', 'version', 'help'])
+cli_completer = WordCompleter(['get_info', 'get_info_output', 'exit', 'version', 'help', 'daemon-address'])
 session = PromptSession()
 
 def helpcli(additional_args=None):
