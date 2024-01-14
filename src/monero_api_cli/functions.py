@@ -1,6 +1,22 @@
 import requests
 import json
+import re
 from .help import helpcli
+
+def ip_address_validation(daemon_address):
+    ipv4_pattern = r'^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'
+    port_pattern = r'^[1-9]\d{0,4}$|0$'
+    if len((daemon_address.split(":"))) != 2:
+        print("Invalid input format. Please use [IPv4 address]:[Port number] format.")
+        exit(1)
+    address, port = daemon_address.split(":")
+    if not re.match(ipv4_pattern, address):
+        print("Invalid IPv4 address. Please use a valid IPv4 address.")
+        exit(1)
+    if not re.match(port_pattern, port):
+        print("Invalid port number. Please use a valid port number (1-65535).")
+        exit(1)
+    return address, port
 
 def help(address, port, additional_args=None):
     helpcli(additional_args)

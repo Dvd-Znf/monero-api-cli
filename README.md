@@ -53,7 +53,7 @@ Check Config File section for more details
 Default location for config file is /etc/monero-api-cli/monero-api-cli.config for MacOS/Linux     
 And C:\ProgramData\MoneroApiCli\monero-api-cli.confg for Windows                
 Example config file located at root of this repo, named `monero-api-config.config`
-``` toml
+``` ini 
 # Config File INI/TOML like syntax
 # Lines starting with # are comments and have their respective default options
 [settings]
@@ -107,7 +107,7 @@ $ python -m src.monero_api_cli
 This is not meant as a replacement for python-monero module!        
 Instead, this is an independent cli application for interacting with monerod via its RPC API        
 i.e. cli-app & no wallet RPC        
-This is mostly ment for monero node operators who would like a nice, intuitive and easy way to interact with their daemon    
+This is mostly meant for monero node operators who would like a nice, intuitive and easy way to interact with their daemon    
 This is the reason I made this.      
 python-monero last update to its source code was more than a year ago, even tho it could use some improvements, at least to its docs.     
 This is activly developed.      
@@ -117,5 +117,6 @@ Some setups require the daemon to be non-interactive
 Also that sound super laaaameeeeeee       
 ## TODO:    
 - Add ability to switch daemon address from REPL interactive mode         
+  - ~~Create a separate function for IP address validation~~     
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
