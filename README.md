@@ -116,6 +116,7 @@ After first realse you may integrate monero-api-cli into whatever you want but t
 Some setups require the daemon to be non-interactive       
 Also that sound super laaaameeeeeee       
 ## TODO:    
-- ~~Add ability to switch daemon address from REPL interactive mode~~         
+- ~~Add ability to switch daemon address from REPL interactive mode~~
+- Implement `get_connections` RPC Method         
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
