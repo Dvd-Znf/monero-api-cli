@@ -117,6 +117,7 @@ Some setups require the daemon to be non-interactive
 Also that sound super laaaameeeeeee       
 ## TODO:    
 - Implement `get_connections` RPC Method
-- Implement `get_version` RPC Method         
+- Implement `get_version` RPC Method
+- Implement `/get_height` RPC Method
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
