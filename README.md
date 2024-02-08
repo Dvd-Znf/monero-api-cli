@@ -119,5 +119,6 @@ Also that sound super laaaameeeeeee
 - Implement `get_connections` RPC Method
 - Implement `get_version` RPC Method
 - Implement `/get_height` RPC Method
+- Implement `/get_net_stats` RPC Method 
 ### TODO for v1.0.0:       
 - Implement more of the API :P     
