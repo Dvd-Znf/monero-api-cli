@@ -1,4 +1,6 @@
 # Monero-api-cli       
+![GitHub Release](https://img.shields.io/github/v/release/Dvd-Znf/monero-api-cli?include_prereleases&logo=GitHub&label=Latest%20release%3A&color=lightgreen)
+![PyPI - Version](https://img.shields.io/pypi/v/monero-api-cli?logo=Python&label=Latest%20PyPi%20version%3A&color=lightyellow)
 ## Cli for interacting with the MoneroDaemon-RPC API       
 ![Banner](./imgs/Banner.png)    
 `monero-api-cli` is a Python cli application meant for remotely interacting with a Monero Daemon via its [RPC API](https://www.getmonero.org/resources/developer-guides/daemon-rpc.html)     
