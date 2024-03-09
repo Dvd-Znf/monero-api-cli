@@ -1,6 +1,7 @@
 # Monero-api-cli       
 ![GitHub Release](https://img.shields.io/github/v/release/Dvd-Znf/monero-api-cli?include_prereleases&logo=GitHub&label=Latest%20release%3A&color=lightgreen)
 ![PyPI - Version](https://img.shields.io/pypi/v/monero-api-cli?logo=Python&label=Latest%20PyPi%20version%3A&color=lightyellow)
+![AUR Version](https://img.shields.io/aur/version/monero-api-cli?logo=Arch%20Linux&label=Latest%20AUR%20version%3A)
 ## Cli for interacting with the MoneroDaemon-RPC API       
 ![Banner](./imgs/Banner.png)    
 `monero-api-cli` is a Python cli application meant for remotely interacting with a Monero Daemon via its [RPC API](https://www.getmonero.org/resources/developer-guides/daemon-rpc.html)     
@@ -74,8 +75,12 @@ Install all python module dependencies with: `pip install -r requirements.txt`
 | Prompt Toolkit module | `prompt_toolkit` | Used in the implementation of REPL cli mode |
      
 ## How to install
+### From AUR package
+If you use Arch Linux you know what to do.     
+Here is the link to the AUR package: https://aur.archlinux.org/packages/monero-api-cli
 ### From PyPi via pip   
 `pip install monero-api-cli`     
+### From repo:
 You can either use the source code with the Python interpretor directly        
 Or you could use the provided binary available at `dist/monero-api-cli` for MacOS/Linux and `dist/monero-api-cli.exe` for Windows            
 ### Step 0:
