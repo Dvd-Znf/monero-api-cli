@@ -123,7 +123,6 @@ After first realse you may integrate monero-api-cli into whatever you want but t
 Some setups require the daemon to be non-interactive       
 Also that sound super laaaameeeeeee       
 ## TODO:    
-- ~~Package for AUR~~      
 - Implement `get_connections` RPC Method
 - Implement `get_version` RPC Method
 - Implement `/get_height` RPC Method
