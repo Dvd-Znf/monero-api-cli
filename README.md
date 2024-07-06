@@ -111,14 +111,14 @@ Or you can run the source directly as a module
 $ python -m src.monero_api_cli
 ```
 ## Why make this from zero when python-monero module already exists?      
-This is not meant as a replacement for python-monero module!        
+1. This is not meant as a replacement for python-monero module!        
 Instead, this is an independent cli application for interacting with monerod via its RPC API        
 i.e. cli-app & no wallet RPC        
-This is mostly meant for monero node operators who would like a nice, intuitive and easy way to interact with their daemon    
+2. This is mostly meant for monero node operators who would like a nice, intuitive and easy way to interact with their daemon    
 This is the reason I made this.      
-python-monero last update to its source code was more than a year ago, even tho it could use some improvements, at least to its docs.     
+3. python-monero last update to its source code was more than a year ago, even tho it could use some improvements, at least to its docs.     
 This is activly developed.      
-After first realse you may integrate monero-api-cli into whatever you want but thats not my problem/focus.      
+After first release you may integrate monero-api-cli into whatever you want but thats not my problem/focus.      
 ## Can't you ssh into your node then just use monerod?      
 Some setups require the daemon to be non-interactive       
 Also that sound super laaaameeeeeee       
