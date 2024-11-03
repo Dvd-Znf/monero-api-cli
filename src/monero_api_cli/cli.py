@@ -38,7 +38,8 @@ def cli(address, port):
                 if first_arg == "help":
                     rpc_methods[first_arg](address, port, additional_arg)
                 elif first_arg == "daemon-address":
-                    print(additional_arg)
+                    daemon_address = additional_arg
+                    address, port = ip_address_validation(daemon_address)
                 else:
                    print(first_arg + " is not known")
             elif user_input == "daemon-address":
