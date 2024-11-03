@@ -53,6 +53,8 @@ def cli(address, port):
                 rpc_methods[user_input](address, port)
             elif len(user_input) > 0 and not str.isspace(user_input):
                 print(user_input + " is not known")
+        except ValueError as e:
+            print(f"ValueError: {e}")
         except KeyboardInterrupt:
             print("\nKeyboardInterrupt. Exiting the CLI.")
             break

@@ -65,8 +65,11 @@ if config:
         #print(f"{key} = {value}")
         if key == "daemon-address":
             daemon_address = value
-
-address, port = ip_address_validation(daemon_address)
+try:
+    address, port = ip_address_validation(daemon_address)
+except ValueError as e:
+    print(f"ValueError: {e}")
+    exit(1)
 
 
 if args.subcommand is None :
