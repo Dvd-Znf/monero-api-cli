@@ -6,10 +6,19 @@ from .help import helpcli
 def ip_address_validation(daemon_address):
     ipv4_pattern = r'^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'
     port_pattern = r'^[1-9]\d{0,4}$|0$'
+    domain_pattern = re.compile(
+    r'^(([a-zA-Z]{1})|([a-zA-Z]{1}[a-zA-Z]{1})|'
+    r'([a-zA-Z]{1}[0-9]{1})|([0-9]{1}[a-zA-Z]{1})|'
+    r'([a-zA-Z0-9][-_.a-zA-Z0-9]{0,61}[a-zA-Z0-9]))\.'
+    r'([a-zA-Z]{2,13}|[a-zA-Z0-9-]{2,30}.[a-zA-Z]{2,3})$'
+    )
+
     if re.match(ipv4_pattern,daemon_address):
         return daemon_address, "18081"
     if re.match(port_pattern,daemon_address):
         return "127.0.0.1", daemon_address
+    if domain_pattern.match(daemon_address):
+        return daemon_address, "18080"
     if len((daemon_address.split(":"))) != 2:
         raise ValueError("Invalid input format. Please use [IPv4 address]:[Port number] format.")
     address, port = daemon_address.split(":")
